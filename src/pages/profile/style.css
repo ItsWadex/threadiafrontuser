@@ -1,0 +1,121 @@
+#profile-page-c {
+  /* Set the image as background */
+  background-image: url("C:\Users\bouas\Downloads\Leonardo_Phoenix_A_gritty_urban_website_background_image_featu_3.jpg");
+  /* Style background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: #f4f4f4;
+}
+
+#profile-page {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #dc3545; /* Red color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+  margin: 0 10px; /* Add spacing between buttons */
+}
+
+button:hover {
+  background-color: #c82333; /* Darker red for hover */
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.success-message {
+  color: #28a745;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#orders {
+  margin-top: 20px;
+}
+
+#orders h3 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+#orders ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#orders li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#orders li h4 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+#orders li p {
+  margin: 5px 0;
+  color: #555;
+}

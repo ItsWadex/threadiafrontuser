@@ -1,0 +1,128 @@
+/* Product Details Page Styles */
+#product-details-page {
+  padding: 20px;
+  text-align: center;
+  /* Set the image as background */
+  background-image: url("C:/Users/bouas/Downloads/Leonardo_Phoenix_A_gritty_urban_website_background_image_featu_3.jpg");
+  /* Style background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+}
+
+#product-details-page h1 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Semi-transparent background for readability */
+  border-radius: 10px; /* Matching rounded corners */
+  padding: 30px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow for a polished look */
+  margin: 0 auto;
+  max-width: 800px; /* Increase width for better view */
+  width: 90%; /* Make the layout responsive */
+}
+
+.product-carousel .slide img {
+  max-height: 500px; /* Set max-height for image */
+  width: 100%; /* Ensure full width */
+  object-fit: contain; /* Ensure image fits within its container while preserving aspect ratio */
+  border-radius: 8px;
+}
+
+.product-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.product-info p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.buy-now-btn {
+  background-color: #ff0000; /* More vibrant orange color */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.buy-now-btn:hover {
+  background-color: #f31717;
+}
+
+.error-message {
+  color: red;
+  margin-top: 15px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  #product-details-page {
+    padding: 10px;
+  }
+
+  .product-details {
+    padding: 15px;
+    max-width: 100%; /* Make the details section fully responsive */
+  }
+
+  .product-carousel .slide img {
+    max-height: 300px; /* Adjust for smaller screens */
+  }
+}
+/* Style the select dropdown for choosing size */
+.product-info select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: rgb(255, 52, 52);
+  color: #ffffff;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition on focus */
+}
+
+/* Style the options inside the dropdown */
+.product-info select option {
+  background-color: white;
+  color: #333;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* Add hover and focus effects for the select dropdown */
+.product-info select:hover,
+.product-info select:focus {
+  border-color: #ff0000; /* Red border when hovering or focused */
+  box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.5); /* Add slight shadow on focus */
+  outline: none; /* Remove the default outline */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .product-info select {
+    max-width: 100%;
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+}

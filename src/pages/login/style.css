@@ -1,0 +1,84 @@
+#login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("C:/Users/bouas/OneDrive/Bureau/Threadia Designs/xRzkvufAyi1RfkAUUuFw9vhPaYLZEVG0vfwElXnsBxMQTqvmA.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#Register-box,
+#Login-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+#Register-box h1,
+#Login-box h1 {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+#Register-box form,
+#Login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+#Register-box input,
+#Login-box input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+}
+
+.password-input {
+  flex: 1;
+}
+
+.toggle-password {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #007bff;
+  padding-left: 10px;
+}
+
+.error-message,
+.success-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: green;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #333;
+}
